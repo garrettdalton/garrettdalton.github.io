@@ -1,0 +1,33 @@
+/*link pseudo class*/
+a:link {color:#FF0000;}
+a:visited {color:#00FF00;}
+a:hover {color:#FF00FF;}
+a:active {color:#0000FF;}
+
+#header {
+	position: absolute;
+	top: -1px;
+	background-color: black;
+	height: 100px;
+}
+
+#sidebar {
+	float:left;
+	width:200px;
+	background-color:yellow;
+}
+
+#content {
+	float:right;
+}
+
+#footer {
+	position absolute;
+	bottom: 1px;
+	background-color: black;
+	height: 100px;
+}
+
+.second{
+	color: orange;
+}
