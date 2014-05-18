@@ -38,9 +38,9 @@ a:active {color:#0000FF;}
 }
 
 #footer {
-	position relative;
+	position absolute;
 	width 100%;
-	bottom: 0;
+	bottom: -20px;
 	background-color: red;
 	height: 100px;
 	padding: 20px;
