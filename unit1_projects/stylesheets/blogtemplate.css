@@ -5,6 +5,7 @@ body {
 #main {
 background-color: #B2B273;
 width: 1000px;
+margin: 0 auto;
 }
 
 #blogtitle {
