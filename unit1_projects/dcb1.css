@@ -4,6 +4,12 @@ body {
 	font-family: "Tiems New Roman";
 }
 
+p{
+	color: blue;
+	backround-color: black;
+	font: 80%;
+}
+
 header{
 	color:yellow;
 	backround-color: fuchsia;
