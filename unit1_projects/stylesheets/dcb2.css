@@ -17,6 +17,8 @@ a:active {color:#0000FF;}
 
 #sidebar {
 	float:left;
+	position: relative;
+	top: 120px;
 	width:200px;
 	height:400px;
 	background-color:yellow;
