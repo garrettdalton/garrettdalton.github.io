@@ -49,6 +49,13 @@ a:active {color:#0000FF;}
     z-index:10;
 }
 
+#caption{
+	position absolute;
+	width:70px;
+	height:15px;
+	bottom: 100px;
+}
+
 .second{
 	color: orange;
 }
