@@ -1,19 +1,23 @@
 body {
-	color:red;
-	background-color: white;
 	font-family: "Tiems New Roman";
 }
 
 p{
-	color: blue;
 	backround-color: black;
 	font: 80%;
 }
 
-header{
+h1{
 	color:yellow;
 	backround-color: fuchsia;
 	font-family: "Arial";
 
 }
 
+#ones {
+	color:red;
+}
+
+.twos {
+	color:blue;
+}
