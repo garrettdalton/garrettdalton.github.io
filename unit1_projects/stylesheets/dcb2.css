@@ -50,7 +50,7 @@ a:active {color:#0000FF;}
 }
 
 #caption{
-	position absolute;
+	position: absolute;
 	width:70px;
 	height:15px;
 	bottom: 150px;
