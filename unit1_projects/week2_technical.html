@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylesheets/blogtemplate.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/week2_technical.css">
+  	<title>Garrett's Blog</title>
+  	
+  </head>
+
+  <body>
+  	<div id="main">
+  		<div id="blogtitle">Technical Blog: Inline vs Inline blocks</div>
+  		<div id="post">
+  		<!--<h1> </h1>-->
+  		  <p>To understand what the differences are between Inline and Inline-Block one must first know about the display property.  The display property can be set by the programmer, but is often set by default depending on the element.</p>
+  		  <p>Paragraphs, like the one you are reading and the one above it, are set by default to display with block properties.  Elements with their display property set to 'block' have a defineable width and height and will create a new line each time a block element appears on the page.  The example below demonstrates how 2 block elements appear on a page.</p>
+        <div class="example">
+          <div class="block">Block 1</div>
+          <div class="block">Block 2</div>
+        </div>
+        <p>Elements which have the property of display set to inline do not have a defineable height and width and do not be displayed on a new line on the page.  The height and width of the inline element will be set based upon the text contained within it.  Inline elements will flow into one another, and therefore appear as if 'in line'.  Below is an example of a few inline elements as they appear on a web page.</p>
+        <div class="example">
+            <div class="inline">Inline 1</div>
+            <div class="inline">Inline 2 Inline 2</div>
+            <div class ="inline">Inline 3 Inline 3 Inline 3</div>
+        </div>
+        <p>Setting an elements display to Inline-Block will give it attributes of both Block elements and Inline elements.  These elements will have a defineable height and width, and will remain distinctly seperate. However, they will retain the ability to be horizontally displayed like inline elements. Below are three similarly shaped inline-block elements:</p>
+        <div class="example">
+          <div class="inblock">Inline Block 1</div>
+          <div class="inblock">Inline Block 2</div>
+          <div class="inblock">Inline Block 3</div>
+        </div>
+        <p>Differently sized inline-block elements will behave in a similar fashion, but must be aligned to desired effect.  Below are 3 differently sized inline block elements aligned by their top.</p>
+        <div class="example">
+          <div id="shortib">Inline Block 1</div>
+          <div class="inblock">Inline Block 2</div>
+          <div id="tallib">Inline Block 3</div>
+        </div>
+
+
+
+        </div>
+  		</div>
+  		<!--<div id="Theses">
+  			sidebar
+  		</div> -->
+  		<div id="footer">
+  			-Garrett Dalton <a href="mailto:garrettjdalton@gmail.com">email me!</a>
+  		</div>
+    </div>
+  </body>
+
+</html>
