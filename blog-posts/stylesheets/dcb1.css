@@ -1,0 +1,23 @@
+body {
+	font-family: "Tiems New Roman";
+}
+
+p{
+	backround-color: black;
+	font: 80%;
+}
+
+h1{
+	color:yellow;
+	backround-color: fuchsia;
+	font-family: "Arial";
+
+}
+
+#ones {
+	color:red;
+}
+
+.twos {
+	color:blue;
+}

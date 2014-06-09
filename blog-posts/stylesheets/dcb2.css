@@ -1,0 +1,62 @@
+/*link pseudo class*/
+a:link {color:#FF0000;}
+a:visited {color:#00FF00;}
+a:hover {color:#FF00FF;}
+a:active {color:#0000FF;}
+
+#header {
+	position: absolute;
+	width:100%;
+	top: -1px;
+	background-color: red;
+	height: 100px;
+	padding: 20px;
+    border: 3px solid #00ff00;
+    margin: 15px;
+}
+
+#sidebar {
+	float:left;
+	position: relative;
+	top: 170px;
+	width:200px;
+	height:200px;
+	background-color:yellow;
+	padding: 2px;
+    border: 3px;
+}
+
+#content {
+	float:right;
+	position:relative;
+	top: 170px;
+	width: 400px;
+	height:200px;
+	padding: 10px;
+    border: 3px solid #00ff00;
+    margin: 20px;
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	background-color: red;
+	height: 100px;
+	padding: 20px;
+    border: 3px solid #000000;
+    margin-top: 15px;
+    z-index:10;
+}
+
+#caption{
+	position: absolute;
+	width:70px;
+	height:15px;
+	bottom: 100px;
+	z-index:1;
+}
+
+.second{
+	color: orange;
+}

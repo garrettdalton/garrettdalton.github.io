@@ -1,0 +1,46 @@
+.example {
+	display:block;
+	padding: 5px;
+}
+ .block {
+ 	height: 100px;
+ 	width: 200px;
+ 	margin: 2px;
+ 	padding: 5px;
+ 	background-color: #FFFFFF;
+
+ }
+
+ .inline {
+ 	display: inline;
+ 	margin: 2px;
+ 	padding: 5px;
+ 	background-color: #FFFFFF;
+ }
+
+ .inblock {
+ 	display: inline-block;
+ 	margin: 2px;
+ 	padding: 5px;
+ 	height: 100px;
+ 	width: 200px;
+ 	background-color: #ffffff;
+ }
+
+ #tallib {
+ 	display: inline-block;
+ 	margin: 2px;
+ 	padding: 5px;
+ 	height: 300px;
+ 	width: 200px;
+ 	background-color: #ffffff;
+ }
+
+ #shortib {
+ 	display: inline-block;
+ 	margin: 2px;
+ 	padding: 5px;
+ 	height: 30px;
+ 	width: 200px;
+ 	background-color: #ffffff;
+ }

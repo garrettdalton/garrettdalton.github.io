@@ -1,0 +1,53 @@
+body {
+	background-color: #BD7AFF;
+}
+
+#main {
+background-color: #B2B273;
+width: 900px;
+margin: 0 auto;
+}
+
+#blogtitle {
+	text-align: center;
+	height: 60px;
+	border-bottom: 5px, solid #000000;
+	padding: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 23px;
+	background-color: #8000FF;
+}
+
+#post {
+	text-align: left;
+	padding left: 10px;
+	padding right: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 15px;
+	background-color: #B2B273;
+}
+
+#theses{
+	float: left;
+	text-align: left;
+	border: 1px, solid #000000;
+	padding: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #8000FF;
+}
+
+#footer {
+	text-align: center;
+	padding left: 10px;
+	padding right: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #B2B273;
+}
+
+/*link pseudo class*/
+a:link {color:#FF0000;}
+a:visited {color:#00FF00;}
+a:hover {color:#FF00FF;}
+a:active {color:#0000FF;}
