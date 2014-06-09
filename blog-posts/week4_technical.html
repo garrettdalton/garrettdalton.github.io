@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylesheets/blogtemplate.css">
+  	<title>Garrett's Blog</title>
+  	
+  </head>
+
+  <body>
+  	<div id="main">
+  		<div id="blogtitle">Using #map in Ruby!</div>
+  		<div id="post">
+  		<h1> So what is #map? </h1>
+  		  <p>#map is a predetermined method which can be called with any enumerator.  Map will return a new array with the results of running the given block once for each element which it was called on.</p>
+  		  <p>As an example, say you had an array of integers called my_ints, and you wished to add 2 to every int in that array. If my_ints = [1, 2, 3] then you could do so using #map: my_ints.map {|x| x + 1}. This would return an array equal to [2,3,4]
+        </p>
+      <h1>#map vs. #map!</h1>
+        <p>Now in the above example you get to return an array of modified ints, but what if you wanted to make changes to the array my_ints?  calling my_ints.map! will call the destructive version of #map, which will modify the original array it is called on.  In this case, calling my_ints.map! {|x| x + 1} would modify my_ints to equal [2, 3, 4]</p>
+
+  		</div>
+  		<!--<div id="Theses">
+  			sidebar
+  		</div> -->
+  		<div id="footer">
+  			-Garrett Dalton <a href="mailto:garrettjdalton@gmail.com">email me!</a>
+  		</div>
+    </div>
+  </body>
+
+</html>
