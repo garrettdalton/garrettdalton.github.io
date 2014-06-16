@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylesheets/blogtemplate.css">
+  	<title>Garrett's Blog</title>
+  	
+  </head>
+
+  <body>
+  	<div id="main">
+  		<div id="blogtitle">Classes in Ruby</div>
+  		<div id="post">
+  		<h1>Classes</h1>
+  		  <p>ruby is an Object Oriented Programming (OOP) Language.  It utilizes objects, which can be grouped according to class.  A class is almost like a blueprint for objects.  When you define a class, you are basically laying down a set of variables and methods for future objects of that class to use and inherit.</p>
+      <h3>Inheritance? What's that?</h3>
+        <p>Inheritance is a concept that is critical to object oriented languages.  It allows for the reuse of code to maximize efficieny while programming.  Inheritance sets up a hierachy of objects, with the child objects gaining the attributes of the parent object.  A class is a sort of super object, which passes its variables and methods to its children.  The children 'inherit' those attributes so that the programmer doesn't have to define the class atrributes each time they create a new object.</p>
+        <img src="https://raw.githubusercontent.com/garrettdalton/garrettdalton.github.io/master/blog-posts/example%20code/screenshots/class_example%20ss.png">
+  		  <p>In the above example is a class I made that I set up for a video game.  The class 'characters' has the method initialize which is the constructor method and will be called whenever a new character object is created.  This method sets up the object with several instance variables.  Instance variables defined here are set to work anywhere in the scope of the class.  This means that any methods in the character class definition will be able to use or modify those variables.</p>
+        <p>The method lvlup is an example of a class method.  It checks the characters job and modifies their stats (in this case the instance variables) appropriately.  Using this code, you could have many different character objects, each with unique variables that inherit the #lvlup method from the character class!</p>
+  		</div>
+  		<!--<div id="Theses">
+  			sidebar
+  		</div> -->
+  		<div id="footer">
+  			-Garrett Dalton <a href="mailto:garrettjdalton@gmail.com">email me!</a>
+  		</div>
+    </div>
+  </body>
+
+</html>
