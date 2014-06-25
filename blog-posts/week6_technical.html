@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylesheets/blogtemplate.css">
+  	<title>Garrett's Blog</title>
+  	
+  </head>
+
+  <body>
+  	<div id="main">
+  		<div id="blogtitle">Classes vs. Modules</div>
+  		<div id="post">
+  		<h1>Class is actually a subclass of Module</h1>
+  		  <p>Classes and Modules are very similar at first look.  Both are made up of different methods and constants, and can both use instance methods. Here is how the two look when coded:</p>
+        <img src="https://raw.githubusercontent.com/garrettdalton/garrettdalton.github.io/master/blog-posts/example%20code/screenshots/module-class-definition.png">
+        <p>As you can see, the two are very similar.  The only difference is using the key word module instead of class.</p>
+  		  <h1>So what's the difference?</h1>
+        <p>Ok.  So class and module at first glance look similar, and share similar attributes.  The difference however, is the programmers intended use for them.  Classes are used for the instantiation of objects and the corresponding instance methods.  Modules are all about methods.  Modules can also include instance methods, or more broader module methods, but <em>cannot</em>be instantiate as an object.  They also cannot inherit or be inherited from like classes.  A big difference for modules, is that they can be included within classes.<h3>This inclusion is a big reason to use a module.</h3> Because you can include modules within a class, and you can use theses inclusions over multiple classes, you can reuse method code across multiple classes with a simple include call.  This almost makes a module a small 'library' of methods which classes can access using include.  Let's go back to the earlier example, this time with the class including the module.</p>
+        <img src="https://raw.githubusercontent.com/garrettdalton/garrettdalton.github.io/master/blog-posts/example%20code/screenshots/including_module_in_class.png">
+        <p>Here we can see the magic of modules.  Our class has now had the module included within it so that we can utilize the modules methods with our instantiated class objects.  This can be redone across many classes in order to reuse code as much as possible.</p>
+  		</div>
+  		<!--<div id="Theses">
+  			sidebar
+  		</div> -->
+  		<div id="footer">
+  			-Garrett Dalton <a href="mailto:garrettjdalton@gmail.com">email me!</a>
+  		</div>
+    </div>
+  </body>
+
+</html>
