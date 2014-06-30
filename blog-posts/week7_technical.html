@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="stylesheets/blogtemplate.css">
+  	<title>Garrett's Blog</title>
+  	
+  </head>
+
+  <body>
+  	<div id="main">
+  		<div id="blogtitle">SQL Injection Attacks</div>
+  		<div id="post">
+  		<h1></h1>
+  		  <p>SQL injection attacks are a somewhat simple and common method of maliciously accessing and effecting an SQL database.  It is generally used where a web app accepts user input in order to acces a SQL database.The attacker will use their input to trick the database into using certain commands in SQL, which in turn can give the user full access, or allow the user to modify data at their leasure.</p>
+  		  <p>The method is simple enough in that an attacker can give input which has a hidden command within it.  In the case of the XKCD comic, the input "Robert'); DROP TABLE students; --" closes the  the statement by ending Robert with ');.  This will give the input as Robert and the semi colon begins a new command input. 'DROP TABLE students -- ' then deletes the entire student table (if it is named students) and '--' then makes the rest of the line a comment.  In this case the attacker could most like guess that the table is named students, assuming that the school has a simple database.  In the real world, attackers will prob databases to try to find weaknesses and table and column names in order to access the database.</p>
+      <h1>Is there any way to prevent such an attack?</h1>
+        <p>There are two relatively simple techniques for new users to protect from injection attacks.  The first is to <em>limit the user permissions</em> of all but the moderators of the database.  Setting a users permission to query only will limit them from modifying data in the first place.</p>
+        <p>The second method is mentioned in the comic.  As a database moderator, you should strive to <em>sanitize the input</em>, which is a method to filter input from symbols and commands frequently used in injection attacks.  Characters like the semi-colon can be filtered from input to avoid an attacker from injecting commands.  Obviously this filter depends on what the input is requesting, and the sanitizing should reflect the data being input.</p>
+  		</div>
+  		<!--<div id="Theses">
+  			sidebar
+  		</div> -->
+  		<div id="footer">
+  			-Garrett Dalton <a href="mailto:garrettjdalton@gmail.com">email me!</a>
+  		</div>
+    </div>
+  </body>
+
+</html>
